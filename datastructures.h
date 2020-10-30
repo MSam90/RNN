@@ -10,7 +10,11 @@
 #define datastructures_h
 #include <vector>
 
+
+// Represents a single network layer.
 typedef std::vector<double> layer;
+
+// Represents a matrix of variables size.
 typedef std::vector<std::vector<double>> dMatrix;
 
 #endif /* datastructures_h */

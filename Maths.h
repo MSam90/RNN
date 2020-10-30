@@ -13,6 +13,14 @@
 #include "Random_generator.h"
 using namespace std;
 
+/**
+ * Performs Rectified linear unit (ReLu).
+ *
+ * This performs ReLu on a single double.
+ *
+ * @param x
+ * @return x:0
+ */
 
 double ReLu(double x)
 {
@@ -21,6 +29,16 @@ double ReLu(double x)
     }
     return 0;
 }
+
+/**
+ * Performs Rectified linear unit (ReLu).
+ *
+ * This performs ReLu on a vector of doubles and can adapt to derivatives.
+ *
+ * @param x
+ * @param deriv
+ * @return output
+ */
 
 vector<double> ReLu_vector(vector<double> x, bool deriv)
 {

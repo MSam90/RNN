@@ -12,6 +12,15 @@
 #include <fstream>
 #include <string>
 
+/**
+ * Converts string into ASCII array.
+ *
+ * This converts the strings into ASCII binary arrays.
+ *
+ * @param letter
+ * @return None
+ */
+
 void convertToASCII(std::string letter)
 {
     for (int i = 0; i < letter.length(); i++)
@@ -29,6 +38,15 @@ void convertToASCII(std::string letter)
         temp = "";
     }
 }
+
+/**
+ * Reads files and converts into characters.
+ *
+ * This reads a input file and converts it into a character basec vector.
+ *
+ * @param input_file
+ * @return output
+ */
 
 vector<char> readFile(string input_file){
     vector<char> output;
