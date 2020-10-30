@@ -1,4 +1,4 @@
-#include "m_adder.h"
+#include "matrix_adder.h"
 
 void m_add(unsigned int row, unsigned int col, hls::stream<s_data> &inA, hls::stream<s_data> &inB, hls::stream<s_data> &result)
 {
